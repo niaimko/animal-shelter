@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #4c4c4c;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 42px;
+  padding-right: 42px;
+  
+  font-family: Georgia, serif;
+  font-size: 17px;
+  line-height: 57px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  text-align: center;
+  vertical-align: middle;
+  color: #292929;
+  
+  background-color: #f1cdb3;
+  border: 2px solid #f1cdb3;
+  border-radius: 25px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgba(241, 205, 179, 0.5);
+}
+
+.button:active {
+  background-color: rgba(241, 205, 179, 0.25);
+}
+
+.main-header {
+  background-color: #332a26;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 span {
+  display: block;
+}
+
+h1 span:first-child {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  line-height: 97.08px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #f1cdb3;
+}
+
+h1 span:last-child {
+  font-size: 13px;
+  line-height: 29px;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+  color: #ffffff;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.site-navigation a {
+  line-height: 29px;
+  color: #cdcdcd;
+}
+
+.site-navigation a {
+  line-height: 29px;
+  color: #cdcdcd;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #ffffff;
+}
+
+.page-intro {
+  min-height: 925px;
+  
+  background-color: #332a26;
+  background-image: url("../img/background-intro.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.page-intro h2 {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Georgia, serif;
+  font-size: 44px;
+  line-height: 57px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #ffffff;
+}
+
+.page-intro p {
+  color: #cdcdcd;
+}
+
+.about-us {
+  min-height: 586px;
+  
+  background-color: #fafafa;
+  background-image: url("../img/background-about-us.png");
+  background-position: top 89px left 543px;
+  background-repeat: no-repeat;
+}
+
+.about-us h2 {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Georgia, serif;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.catalog {
+  min-height: 834px;
+  
+  background-color: #f6f6f6;
+}
+
+.catalog h2 {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Georgia, serif;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.catalog-list {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.catalog-item-title {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.catalog-item .button {
+  background-color: transparent;
+}
+
+.catalog-item .button:hover,
+.catalog-item .button:focus {
+  background-color: #f1cdb3;
+}
+
+.catalog-item .button:active {
+  background-color: rgba(241, 205, 179, 0.25);
+}
+
+.support {
+  min-height: 596px;
+  
+  background-color: #fafafa;
+}
+
+.support h2 {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Georgia, serif;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.support-list {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.support-item {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.donation {
+  min-height: 434px;
+  
+  background-color: #f6f6f6;
+  background-image: url("../img/background-donation.png");
+  background-position: top 86px left 393px;
+  background-repeat: no-repeat;
+}
+
+.donation h2 {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Georgia, serif;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.donation-bank span {
+  display: block;
+}
+
+.donation-bank span:first-child {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.donation-bank span:last-child {
+  font-family: Times New Roman, serif;
+  font-size: 20px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #292929;
+  
+  background-color: #f1cdb3;
+}
+
+.legal-information {
+  font-size: 12px;
+  line-height: 18px;
+  font-style: italic;
+  color: #b2b2b2;
+}
+
+.main-footer {
+  min-height: 362px;
+  
+  background-color: #332a26;
+  background-image: url("../img/background-footer.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+.main-footer h2 {
+  font-family: Georgia, serif;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #ffffff;
+}
+
+.main-footer p {
+  font-family: Times New Roman, serif;
+  font-size: 20px;
+  line-height: 24px; /* возьму на заметку */
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #f1cdb3;
+}
+
+.modal {
+  background-color: #fafafa;
+}
+
+.modal h2 {
+  font-family: Georgia, serif;
+  font-size: 35px;
+  line-height: 45px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.modal h3 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: normal;
+  letter-spacing: 1.92px;
+  color: #545454;
+}
+
+.features-list {
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.features-list li {
+  line-height: 34px;
+  letter-spacing: 1.92px;
+}
+
+.features-list span {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  color: #545454;
+}
+
