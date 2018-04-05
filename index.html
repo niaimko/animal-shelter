@@ -9,7 +9,7 @@
   <header class="main-header">
     <!-- главная навигация по всему сайту -->
     <nav class="main-navigation">
-      <a class="main-header-logo" href="#">
+      <a class="main-header-logo">
         <h1>
           <span>Cozy House</span>
           <span>Shelter for pets in Boston</span>
@@ -17,10 +17,10 @@
       </a>
       <!-- основное меню - неупорядоченный список, где каждый элемент содержит ссылку на страницу -->
       <ul class="site-navigation">
-        <li><a href="#">About the shelter</a></li>
-        <li><a href="#">Our pets</a></li>
-        <li><a href="#">To help the shelter</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="#about-the-shelter">About the shelter</a></li>
+        <li><a href="#our-pets">Our pets</a></li>
+        <li><a href="#to-help-the-shelter">To help the shelter</a></li>
+        <li><a href="#contacts">Contacts</a></li>
       </ul>
     </nav>  
   </header>
@@ -33,13 +33,13 @@
       <a class="button" href="#">Make a friend</a>
     </section>
     <!-- разметим часть о приюте -->
-    <section class="about-us">
+    <section class="about-us" id="about-the-shelter">
       <h2>About the shelter "Cozy House"</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit condimentum. Proin accumsan lorem vel gravida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc.</p>
       <p>Donec consectetur, diam in porta tempus, urna ligula vestibulum nibh, ac ornare felis justo nec leo. Praesent mattis nibh quis ultrices pharetra. Morbi tempus at ante sit amet tristique. Maecenas dignissim justo orci, in laoreet urna dapibus nec. Praesent quis tortor faucibus, tristique ante vitae, dignissim lorem. Sed at ligula et sem mattis gravida ac vel erat.</p>  
     </section>
     <!-- разметим перечень доступных друзей -->
-    <section class="catalog">
+    <section class="catalog" id="our-pets">
       <h2>Our friends who are looking for a house</h2>
       <ul class="catalog-list">
         <li class="catalog-item">
@@ -63,11 +63,11 @@
           </p>
           <a class="button" href="#">Learn More</a>
         </li>
-        <a class="button" href="#">Get to know the rest</a>
+        <a class="button" href="inner.html">Get to know the rest</a>
       </ul>
     </section>
     <!-- разметим перечень возможной помощи для приюта -->
-    <section class="support">
+    <section class="support" id="to-help-the-shelter">
       <h2>Than you can help our shelter</h2>
       <ul class="support-list">
         <li class="support-item">Pet food</li>
@@ -91,7 +91,7 @@
       <p class="legal-information">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
     </section>
   </main>
-  <footer class="main-footer">
+  <footer class="main-footer" id="contacts">
     <div class="footer-contacts">
       <h2>For questions and suggestions</h2>
       <p class="email">email@shelter.com</p>
@@ -118,7 +118,7 @@
       <li><b>Diseases:</b> none</li>
       <li><b>Parasites:</b> none</li>
     </ul>
-    <span class="modal-close">Close</span>
+    <button class="modal-close" type="button">Close</button>
   </section>
   
   <section class="modal modal-charly">
@@ -134,7 +134,7 @@
       <li><b>Diseases:</b> none</li>
       <li><b>Parasites:</b> none</li>
     </ul>
-    <span class="modal-close">Close</span>
+    <button class="modal-close" type="button">Close</button>
   </section>
 </body>
 </html>
