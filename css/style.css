@@ -714,6 +714,7 @@ h1 span:last-child {
 }
 
 .pagination-list {
+  box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -727,6 +728,8 @@ h1 span:last-child {
   min-height: 176px;
   margin: 0 auto;
   padding: 0;
+  padding-top: 62px;
+  padding-bottom: 64px;
 
   list-style: none;
 }
