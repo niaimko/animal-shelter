@@ -101,7 +101,7 @@ input[type="radio"].visually-hidden {
 .main-navigation {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 h1 {
@@ -123,6 +123,7 @@ h1 span:first-child {
   line-height: 97.08px;
   font-weight: normal;
   letter-spacing: 1.92px;
+  word-wrap: break-word;
   color: #f1cdb3;
 }
 
@@ -139,6 +140,7 @@ h1 span:last-child {
   line-height: 29px;
   font-weight: normal;
   letter-spacing: 1.3px;
+  word-wrap: break-word;
   color: #ffffff;
 }
 
@@ -152,14 +154,14 @@ h1 span:last-child {
   justify-content: flex-end;
   width: 900px;
   margin: 0;
-  margin-top: 49px;
+  margin-top: 69px;
   padding: 0;
 
   list-style: none;
 }
 
 .inner-page .site-navigation {
-  margin-top: 20px;
+  margin-top: 41px;
 }
 
 .site-navigation li {
@@ -170,8 +172,10 @@ h1 span:last-child {
   position: relative;
 
   display: inline-block;
+  max-width: 200px;
 
   line-height: 29px;
+  word-wrap: break-word;
   color: #cdcdcd;
 }
 
@@ -244,7 +248,12 @@ h1 span:last-child {
   margin-bottom: 40px;
   padding: 0;
 
+  word-wrap: break-word;
   color: #cdcdcd;
+}
+
+.page-intro .container > a {
+  margin-bottom: 269px;
 }
 
 .about-us {
@@ -307,6 +316,7 @@ h1 span:last-child {
   font-weight: normal;
   letter-spacing: 1.92px;
   text-align: center;
+  word-wrap: break-word;
   color: #545454;
 }
 
@@ -330,6 +340,7 @@ h1 span:last-child {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
   align-content: space-between;
   width: 910px;
   margin: 0;
@@ -351,10 +362,18 @@ h1 span:last-child {
   justify-content: flex-start;
   width: 270px;
   min-height: 424px;
+  margin-bottom: 34px;
 
-  border: 2px solid #fafafa;
   border-radius: 10px;
   background-color: #fafafa;
+}
+
+.catalog-item:nth-last-child(-n+3) {
+  margin-bottom: 0;
+}
+
+.inner-page .catalog-item:nth-last-child(-n+4) {
+  margin-bottom: 0;
 }
 
 .catalog-item:hover {
@@ -390,6 +409,7 @@ h1 span:last-child {
 .catalog-item .button {
   width: 188px;
   margin: 0 auto;
+  margin-bottom: 34px;
 
   background-color: transparent;
 
@@ -408,6 +428,7 @@ h1 span:last-child {
 .catalog > .button {
   width: 193px;
   margin: 0 826px;
+  margin-bottom: 68px;
 }
 
 .catalog-button {
@@ -457,12 +478,14 @@ h1 span:last-child {
   font-weight: normal;
   letter-spacing: 1.92px;
   text-align: center;
+  word-wrap: break-word;
   color: #545454;
 }
 
 .support-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   margin: 0;
   padding: 0;
 
@@ -484,6 +507,7 @@ h1 span:last-child {
   font-weight: normal;
   letter-spacing: 1.92px;
   text-align: center;
+  word-wrap: break-word;
   color: #545454;
 
   background-repeat: no-repeat;
@@ -671,6 +695,7 @@ h1 span:last-child {
 
   font-weight: normal;
   color: #292929;
+  word-wrap: break-word;
 
   background-color: transparent;
   border: 2px solid #f1cdb3;
@@ -722,6 +747,7 @@ h1 span:last-child {
   line-height: 45px;
   font-weight: normal;
   letter-spacing: 1.92px;
+  word-wrap: break-word;
   color: #ffffff;
 }
 
