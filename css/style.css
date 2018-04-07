@@ -388,10 +388,12 @@ h1 span:last-child {
 }
 
 .catalog-item .button {
-  width: 114px;
+  width: 188px;
   margin: 0 auto;
 
   background-color: transparent;
+
+  cursor: pointer;
 }
 
 .catalog-item .button:hover,
@@ -806,13 +808,31 @@ h1 span:last-child {
   background-repeat: no-repeat;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateX(-2000px) translateY(-50%);
+  }
+
+  70% {
+    transform: translateX(-45%) translateY(-50%);
+  }
+
+  90% {
+    transform: translateX(-55%) translateY(-50%);
+  }
+
+  100% {
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
 .modal {
   background-color: #fafafa;
 }
 
 .modal-pets {
   position: fixed;
-  top: 120px;
+  top: 50%;
   left: 50%;
 
   display: none;
@@ -823,7 +843,14 @@ h1 span:last-child {
     -5px 0 15px -3px rgba(0, 1, 1, 0.2),
     5px 0 15px -3px rgba(0, 1, 1, 0.2);
 
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.modal-pets-show {
+  display: block;
+
+  animation: bounce 0.6s;
+  transform-origin: 0 0;
 }
 
 .modal-close {
